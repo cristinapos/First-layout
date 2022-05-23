@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Frontend development course">
+    <meta name="keywords" content="HTML,CSS,Learning">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="bundles/fontawesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="resources/main.css" rel="stylesheet" type="text/css">
+    <title>1-geometric</title>
+  </head>
+  <body>
+    <main class="contact-main">
+      <header class="contact-header">
+          <div>
+            <li><a href="index.html"><img src="../1-layout-UniC/assets/logo-white.png" class="img-logo"></a></li>
+            <nav>
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </nav>
+          </div>
+          <div class="header-text">
+                <h1>Contact us</h1>
+                <p>Fill out the form below to learn more.</p>
+          </div>
+      </header>
+      <section class="form-section">
+        <form action="">
+            <div>
+                <label for="fname">First name:</label>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="fname" name="fname" value="" placeholder="Enter your first name">
+                </div>
+            </div>
+            <div>
+                <label for="lname">Last name:</label>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="lname" name="lname" value="" placeholder="Enter your last name">
+                </div>
+            </div>
+            <div>
+                <label for="email">Enter your email:</label>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+            </div>
+            <div>
+                <label for="story">Message:</label>
+                <textarea id="story" name="story" rows="5" cols="33"></textarea>
+            </div>
+            <div>
+                <legend>Contact me by:</legend>
+                <div class="check">
+                  <input type="checkbox" id="email" name="email" checked>
+                  <label for="email">Email</label>
+                </div>
+                <div class="check">
+                  <input type="checkbox" id="sms" name="sms">
+                  <label for="sms">Sms</label>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="btn-contact">Submit</button>
+                <p>or press <span>enter</span></p>
+            </div>
+          </form>
+      </section>
+      <footer class="contact-footer">
+        <h4>
+          Geometric
+        </h4>
+        <p>technology</p>
+      </footer>
+    </main>
+  </body>
+</html>
